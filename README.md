@@ -5,6 +5,6 @@ https://hub.docker.com/repository/docker/romadub821/test/general
 ## Start
 
 ```
-docker build -t dubovskou .
-docker run -it --rm -p 33333:33333 --name my-running-app dubovskoy
+docker build -t test .
+docker run -it --rm -p 33333:33333 --name my-running-app test
 ```
